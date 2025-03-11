@@ -1,3 +1,4 @@
+'''
 results = set()
 for n in range(100, 3001):
     bin_n = bin(n)[2:]
@@ -14,6 +15,24 @@ for n in range(100, 3001):
             new_n = int(new_bin, 2)
             results.add(n-new_n)
 print(len(results))
+
+'''
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
